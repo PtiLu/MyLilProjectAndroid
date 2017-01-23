@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Witbe Murph</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="murph">Murph</string>
+    <string name="witbe">WITBE</string>
+    <string name="watch_video">Watch a video</string>
+    <string name="menu">Menu</string>
+    <string name="date">Pick a date</string>
+    <string name="switch_button">This is a Witbe Switch</string>
+    <string name="checkbox">This is a Witbe Checkbox</string>
+    <string name="radio_button">This is a Witbe Radio Button</string>
+    <string name="toggle_button">This is a Witbe Toggle Button</string>
+    <string name="switch_activity">Go to play with Witbe button</string>
+</resources>
