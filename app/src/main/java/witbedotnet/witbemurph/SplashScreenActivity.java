@@ -4,6 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 
 /**
  * Created by Ludo on 01/01/17.
@@ -14,13 +20,14 @@ public class SplashScreenActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+        Button myMurphButton = (Button) findViewById(R.id.murphButton);
+        myMurphButton.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View v){
+                Log.i("Witbe Murph", "Login Pop-up");
+                Intent myIntent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+                startActivity(myIntent);
             }
-        },SPLASH_TIME_OUT);
+        });
     }
 }

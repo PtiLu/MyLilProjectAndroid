@@ -21,16 +21,6 @@ public class DateActivity extends Activity implements TimePicker.OnTimeChangedLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.date_layout);
-        Button backToMenuButton = (Button) findViewById(R.id.backToMenu);
-        backToMenuButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Log.i("Witbe Murph", "Go Back To The Menu");
-                Intent myIntent = new Intent(DateActivity.this, MainActivity.class);
-                startActivity(myIntent);
-            }
-        });
-
         Button setTimeButton = (Button) findViewById(R.id.timeSet);
         setTimeButton.setOnClickListener(new View.OnClickListener() {
             @Override

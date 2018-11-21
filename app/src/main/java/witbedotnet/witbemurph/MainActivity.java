@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity{
         myButtonToNextActivity.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v){
-                Log.i("Witbe Murph","The click will launch the second activity");
+                Log.i("Witbe Murph","The click will launch the Video activity");
                 Intent myIntent = new Intent(MainActivity.this, VideoActivity.class);
                 startActivity(myIntent);
             }
@@ -84,6 +84,15 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+        Button myButtonToPictureActivity = (Button)findViewById(R.id.buttonPictureActivity);
+        myButtonToPictureActivity.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Log.i("Witbe Murph", "This click will launch the Picture Activity");
+                Intent myIntent = new Intent(MainActivity.this, ImageDetectionActivity.class);
+                startActivity(myIntent);
+            }
+        });
 
     }
 

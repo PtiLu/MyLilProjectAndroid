@@ -2,14 +2,24 @@
     <string name="app_name">Witbe Murph</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="murph">Murph</string>
+    <string name="murph">Connect Me</string>
     <string name="witbe">WITBE</string>
     <string name="watch_video">Watch a video</string>
     <string name="menu">Menu</string>
     <string name="date">Pick a date</string>
-    <string name="switch_button">This is a Witbe Switch</string>
-    <string name="checkbox">This is a Witbe Checkbox</string>
-    <string name="radio_button">This is a Witbe Radio Button</string>
-    <string name="toggle_button">This is a Witbe Toggle Button</string>
-    <string name="switch_activity">Go to play with Witbe button</string>
+    <string name="switch_button">Switch Me</string>
+    <string name="checkbox">Check Me</string>
+    <string name="radio_button">Radio Me</string>
+    <string name="toggle_button">Toggle Button</string>
+    <string name="switch_activity">Play with button</string>
+    <string name="set">Wait for the robot</string>
+    <string name="img_detection">Detect the robot</string>
+    <string name="no_value">Oups you need to enter a value</string>
+    <string name="seek_bar">Play Me</string>
+    <string name="login">Login</string>
+    <string-array name="spinner_values">
+        <item>WhoIsTheBEst</item>
+        <item>Witbe is the best</item>
+        <item>Quality team is the best</item>
+    </string-array>
 </resources>

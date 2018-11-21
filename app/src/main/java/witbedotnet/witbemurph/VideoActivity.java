@@ -22,10 +22,11 @@ public class VideoActivity extends Activity {
 
         VideoView myVideo = (VideoView) findViewById(R.id.videoView);
         MediaController myMediaController = new MediaController(this);
-        Uri video = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.movie);
+        Uri video = Uri.parse("android.resource://"+this.getPackageName()+"/"+R.raw.witbe);
 
         myVideo.setMediaController(myMediaController);
         myVideo.setVideoURI(video);
+        myVideo.start();
     }
 
     public void goToMainActivity(View v){

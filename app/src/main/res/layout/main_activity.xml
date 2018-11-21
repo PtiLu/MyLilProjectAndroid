@@ -2,19 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fe2c96f2"
+    android:background="@color/white"
     android:weightSum="1">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/date"
+        android:background="@drawable/buttonshape_purple"
         android:id="@+id/buttonDateActivity"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:layout_gravity="center" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:text="@string/watch_video"
         android:id="@+id/buttonNextActivity" />
 
@@ -22,8 +28,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/switch_activity"
+        android:background="@drawable/buttonshape_yellow"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:id="@+id/buttonSwitchActivity"
         android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonPictureActivity"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonshape_red"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="@string/img_detection" />
 
     <ImageView
         android:layout_width="wrap_content"
